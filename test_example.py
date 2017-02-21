@@ -8,15 +8,15 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     credentials =  {
-                'login_username': u'gran12',
-                'login_password': u'ox0Ip',
+                'login_username': u'',
+                'login_password': u'',
                 'login': u'Вход'
             }
     engine = TorrentSearch(tracker_name = "rutracker", credentials=credentials)
     """
     credentials = {
-                'username': u'MrDawerty',
-                'password': u'megamax93'
+                'username': u'',
+                'password': u''
             }
     engine = TorrentSearch(tracker_name = "kinozal", credentials=credentials)
     """
